@@ -59,8 +59,6 @@ public class Wrangle {
      *         defined by Message.getAuthor()'s spec).
      *         The username-mention cannot be immediately preceded or followed by any
      *         character valid in a Twitter username.
-     *         For this reason, an email address like bitdiddle@mit.edu does NOT 
-     *         contain a mention of the username mit.
      *         Twitter usernames are case-insensitive, and the returned set may
      *         include a username at most once.
      */
